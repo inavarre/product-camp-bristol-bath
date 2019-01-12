@@ -10,3 +10,8 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+sass:
+  load_paths:
+  - _sass
+  - node_modules

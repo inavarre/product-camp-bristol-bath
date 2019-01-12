@@ -33,13 +33,19 @@
 //     }
 // }
 
-// variables.less
+// variables
 $theme-primary: #0ca39c;
 $theme-secondary: #4a4a4a;
 $theme-dark: #000;
 
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
-        "base"
+        "base",
+        "header",
+        "nav",
+        "typography",
+        "buttons"
 ;

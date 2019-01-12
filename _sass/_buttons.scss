@@ -1,0 +1,15 @@
+// Button Styles
+.btn-default {
+  @include button-variant($theme-dark, white, white);
+}
+
+.btn-primary {
+  @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+.btn {
+  @include sans-serif-font;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
