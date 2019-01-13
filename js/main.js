@@ -54,7 +54,7 @@
           // the callback is fired every time an animation is started
           // the argument that is passed in is the DOM node being animated
         },
-        scrollContainer: true // optional scroll container selector, otherwise use window
+        scrollContainer: 'container' // optional scroll container selector, otherwise use window
       }
   );
   wow.init();

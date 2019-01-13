@@ -68,8 +68,10 @@
     .navbar-collapse.navbarStroke ul li a:after {
       transition: all .5s;
     }
-    .navbar-collapse.navbarStroke ul li a:hover {
-      color: $text-grey;
+    .navbar-collapse.navbarStroke ul li a {
+      &:hover {
+        color: $theme-primary;
+      }
     }
   }
 }
