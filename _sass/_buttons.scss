@@ -1,10 +1,18 @@
 // Button Styles
 .btn-default {
   @include button-variant($theme-dark, white, white);
+  &:hover,
+  &:focus {
+    background-color: darken($theme-light, 15%);
+  }
 }
 
 .btn-primary {
   @include button-variant(white, $theme-primary, $theme-primary);
+  &:hover,
+  &:focus {
+    background-color: darken($theme-primary, 15%);
+  }
 }
 
 .btn {
