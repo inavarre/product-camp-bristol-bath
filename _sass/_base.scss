@@ -50,6 +50,7 @@ aside {
     margin-top: 0;
 }
 
+// Format section
 .service-box {
     overflow:hidden; //Fix for bounceIn animation: https://stackoverflow.com/questions/27355163/white-space-below-footer-and-body-in-chrome
     max-width: 400px;
@@ -61,6 +62,23 @@ aside {
         margin-bottom: 0;
     }
 }
+
+// Sponsors
+.sponsors {
+    .row {
+        justify-content: space-evenly;
+
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+  .sponsors {
+    .row {
+      justify-content: space-around;
+    }
+  }
+}
+
 
 .portfolio-box {
     position: relative;
@@ -118,6 +136,7 @@ aside {
     }
 }
 
+// Venue
 .venue {
     overflow:hidden;
 
@@ -126,6 +145,7 @@ aside {
     }
 }
 
+// CTA
 .call-to-action {
     h2 {
         margin: 0 auto 20px;
@@ -142,11 +162,6 @@ aside {
     padding: 15px 30px;
 }
 
-// Contact
-#contact .fa {
-    color: $theme-dark;
-    font-size: 4em;
-}
 
 // Extras
 // -- Highlight Color Customization
