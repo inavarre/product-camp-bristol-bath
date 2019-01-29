@@ -8,7 +8,7 @@
 
 
   //navbar-brand - logo
-  .navbar-header .navbar-brand {
+  .navbar-brand {
     color: $theme-primary;
     @include sans-serif-font;
     font-weight: 700;
@@ -17,6 +17,9 @@
     &:focus {
       color: darken($theme-primary, 10%);
     }
+    img {
+      max-height: 50px;
+    }
   }
 
   @media (min-width: 768px) {
@@ -24,7 +27,7 @@
     border-color: $theme-secondary;
 
     //navbar-brand - logo
-    .navbar-header .navbar-brand {
+    .navbar-brand {
       color: $text-grey;
       &:hover,
       &:focus {
